@@ -1,0 +1,17 @@
+CREATE DATABASE `signlog_db`
+CREATE TABLE `user` 
+	(`id`, 
+	`name`, 
+	`email`, 
+	`password`, 
+	`created_at`, 
+	`update_at`
+	)
+	VALUES
+	('id' INT PRIMARY KEY NOT NULL , 
+	'name' VARCHAR, 
+	'email' VARCHAR, 
+	'password' VARCHAR, 
+	'created_at' TIMESTAMP, 
+	'update_at' TIMESTAMP
+	);
